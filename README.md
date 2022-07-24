@@ -1,0 +1,4 @@
+# contacts
+In this project, I created contacts (like on the mobile phone) and search for people or organizations by name.
+The main functions, as stated, include adding contacts to a phonebook, checking for the validity of the supplied inputs
+using regular expressions. A contact can be a person or an organisation. A person has different attributes to a company thus the need to separate them. For example a persorn has gender but an organisation does not.  Also, searching uses regular expressions to search for a contact using either their first name, surname or phone number. It returns a list of all contacts matching a certain pattern (your search query). It then presents you with options to select a contact by number and perform operations like editing or removing it from the phone book; or searching again to narrow down your search; or get back to the main menu. Listing provides the same options also. 

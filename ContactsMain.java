@@ -105,6 +105,7 @@ class PhoneBook {
                         names.add(contact);
                     }
                 }
+		
                 if (!names.isEmpty()) {
                     System.out.printf("Found %d results:%n", names.size());
                     for (int i = 0; i < names.size(); i++) {
